@@ -1,5 +1,3 @@
-github.com/antchfx/xmlquery v1.3.2 h1:4sD655p6i0TBC9Nzd8Z2Ox5MEqOMQDjrNwUDN8RrJ24=
-github.com/antchfx/xmlquery v1.3.2/go.mod h1:64w0Xesg2sTaawIdNqMB+7qaW/bSqkQm+ssPaCMWNnc=
 github.com/antchfx/xmlquery v1.3.3 h1:HYmadPG0uz8CySdL68rB4DCLKXz2PurCjS3mnkVF4CQ=
 github.com/antchfx/xmlquery v1.3.3/go.mod h1:64w0Xesg2sTaawIdNqMB+7qaW/bSqkQm+ssPaCMWNnc=
 github.com/antchfx/xpath v1.1.10 h1:cJ0pOvEdN/WvYXxvRrzQH9x5QWKpzHacYO8qzCcDYAg=
