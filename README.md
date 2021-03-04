@@ -11,8 +11,8 @@ Dump all available paths and/ endpoints on WADL file.
 
 It's very simple!
 
-```bash
-▶ wadl-dumper -i https://domain.tld/application.wadl
+```console
+$ wadl-dumper -i https://domain.tld/application.wadl
 ```
 
 ### Flags
@@ -33,8 +33,8 @@ Options:
 
 By default, `wadl-dumper` doesn't add a base URL to each paths, use  `-b/--show-base` flag to add it.
 
-```bash
-▶ wadl-dumper -i https://beacon.netflix.com/application.wadl -b
+```console
+$ wadl-dumper -i https://beacon.netflix.com/application.wadl -b
 http://nmtracking.netflix.com/users/customerevents
 http://nmtracking.netflix.com/nm
 http://nmtracking.netflix.com/tracking
@@ -49,8 +49,8 @@ http://nmtracking.netflix.com/presentationtracking
 
 You can also replace all **{placeholder}** values in each paths with `-r/--replace` flag.
 
-```bash
-▶ wadl-dumper -i https://tw.bid.yahoo.com/api/application.wadl -b -r "-alert(1)-"
+```console
+$ wadl-dumper -i https://tw.bid.yahoo.com/api/application.wadl -b -r "-alert(1)-"
 http://auc-papi.bid.yahoo.com:4080/api/api/-alert(1)-
 http://auc-papi.bid.yahoo.com:4080/api/campaigns/-alert(1)-
 http://auc-papi.bid.yahoo.com:4080/api/escrows/-alert(1)-
